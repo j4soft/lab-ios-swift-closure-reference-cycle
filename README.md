@@ -55,7 +55,7 @@ Start profiling the application by clicking on the ```Record``` button:
 Switch to the ```Simulator``` and click on the ```Leak``` button:
 ![Leak button](/Images/App Screen Shot .png)
 
-Switch back to ```Instruments``` and wait until a red mark appears on the ```Leaks Checks``` row:
+Switch back to ```Instruments``` and wait until a red mark appears on the ```Leak Checks``` row:
 
 ![Memory leak detected.png](/Images/Memory leak detected.png)
 
