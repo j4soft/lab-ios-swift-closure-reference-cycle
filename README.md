@@ -1,4 +1,4 @@
-# Lab | iOS Swift Closure Reference Cycle Example - memory leaks detection and how to fix it
+# Lab | iOS Swift: Detecting memory leaks in closures with Swift
 
 ## Description
 
