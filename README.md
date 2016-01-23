@@ -18,7 +18,7 @@ Look at the comments in the ```ViewController.swift``` and ```HTMLElement.swift`
 
 This example has been set to create a memory leak, as shown in the code extract below from the ```HTMLElement``` class:
 
-```
+```swift
 lazy var asHTML: Void -> String = {
     // MARK: Uncomment the code below to solve the memory leak by declaring "self" as an "unowned" reference.
 //        [unowned self] in
@@ -73,7 +73,7 @@ Selecting the ```HTMLElement.asHTML.getter``` displays the source code responsib
 
 ### Fixing the memory leak
 
-To fix the memory leak, uncomment the ```[unowned self] in``` line in
+To fix the memory leak, uncomment the ```[unowned self] in``` line in:
 
 ```swift
 lazy var asHTML: Void -> String = {
