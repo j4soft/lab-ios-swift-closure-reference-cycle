@@ -2,11 +2,11 @@
 
 ## Description
 
-The purpose of this example is to find out how to detect memory leaks, also known as reference cycles, when using closures and how to fix the problem.
+The purpose of this example is to find out how to detect memory leaks, also known as reference cycles, when using closures and how to fix them.
 
 This example is based on Apple's [Swift 2.1 documentation illustrating strong reference cycles with closures](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/AutomaticReferenceCounting.html), which explains how memory leaks (reference cycles) occur and how to fix them.
 
-You can look at the comments in the ```ViewController.swift``` and ```HTMLElement.swift``` classes for detailed information where the memory leak occurs and how it gets fixed.
+Look at the comments in the ```ViewController.swift``` and ```HTMLElement.swift``` classes for information where the memory leak occurs and how to fix it.
 
 ## Prerequisites
 
